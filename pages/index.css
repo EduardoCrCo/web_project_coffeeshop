@@ -9,16 +9,16 @@
 }
 
 .header {
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  background-image: url(/images/background_header.svg);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   position: relative;
   box-sizing: border-box;
 }
@@ -31,7 +31,7 @@
 .nav__logo {
   height: 39px;
   width: 105px;
-  position: absolute;
+  position: relative;
   top: 30px;
   left: 30px;
 }
@@ -73,6 +73,7 @@
   /* font-weight: normal; */
   font-size: 58px;
   line-height: 72px;
+  display: block;
 }
 
 .header__description {
@@ -119,6 +120,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes {
