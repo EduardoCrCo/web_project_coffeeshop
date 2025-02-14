@@ -190,11 +190,12 @@
   min-height: 720px;
   max-height: 100vh;
   display: flex;
+  /* height: 100vh; */
   flex-direction: column;
 }
 
 .reservation__title {
-  /* display: flex; */
+  display: flex;
   margin: 100px auto 0px;
   font-weight: 500;
   font-size: 44px;
@@ -255,9 +256,9 @@
   border-radius: 2px;
 }
 
-.form__checkbox_checkbox {
+.form__checkbox_aligned {
   display: flex;
-  align-self: center;
+  align-items: center;
   gap: 12px;
 }
 
