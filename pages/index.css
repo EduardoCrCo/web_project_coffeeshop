@@ -192,6 +192,7 @@
   display: flex;
   /* height: 100vh; */
   flex-direction: column;
+  position: relative;
 }
 
 .reservation__title {
@@ -199,30 +200,31 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  position: relative;
   margin-top: 100px;
   margin-right: auto;
   margin-bottom: 80px;
   margin-left: auto;
 }
 
-.reservation__form {
-  display: block;
+/* .reservation__form {
+  display: flex;
   max-width: 385px;
   margin-top: 0px;
   margin-right: auto;
   margin-bottom: 120px;
   margin-left: auto;
-}
+} */
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
   /* width: 100%; */
-  /* max-width: 385px;
+  max-width: 385px;
   margin-top: 0px;
   margin-right: auto;
   margin-bottom: 120px;
-  margin-left: auto; */
+  margin-left: auto;
   border: none;
   padding: 0px;
 }
