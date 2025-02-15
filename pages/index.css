@@ -193,6 +193,7 @@
   /* height: 100vh; */
   flex-direction: column;
   position: relative;
+  padding-top: 100px;
 }
 
 .reservation__title {
@@ -201,7 +202,7 @@
   font-size: 44px;
   line-height: 52px;
   position: relative;
-  margin: 100px auto 80px;
+  margin: 0px auto 80px;
 }
 
 .reservation__form {
@@ -221,10 +222,11 @@
   flex-direction: column;
   width: 100%;
   max-width: 385px;
-  margin-top: 0px;
+  margin: 0px auto 120px;
+  /* margin-top: 0px;
   margin-right: auto;
   margin-bottom: 120px;
-  margin-left: auto;
+  margin-left: auto; */
   border: none;
   padding: 0px;
 }
